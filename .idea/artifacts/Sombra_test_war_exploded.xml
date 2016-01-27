@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Sombra-test:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Sombra_test_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Sombra-test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Sombra-test" />
+        </element>
+      </element>
+      <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.4.RELEASE" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.4.RELEASE" />
+    </root>
+  </artifact>
+</component>
